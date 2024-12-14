@@ -54,4 +54,28 @@ public class Calculator {
     }
     return Arrays.stream(nums).average().getAsDouble();
   }
+
+  public int [] filterEvenNumbers(int[] nums){
+    return Arrays.stream(nums)
+            .filter(num -> num % 2 == 0)
+            .toArray();
+  }
+
+  public int[] filterOddNumbers(int[] nums){
+    return Arrays.stream(nums)
+            .filter(num -> num %2 !=0)
+            .toArray();
+  }
+
+  public int[] addFiveToEachElement(int [] nums) {
+    return Arrays.stream(nums)
+            .map(num -> num + 5)
+            .toArray();
+  }
+
+  public int[] squareNumbers(int[] nums){
+    return Arrays.stream(nums)
+            .map(num -> num * num)
+            .toArray();
+  }
 }

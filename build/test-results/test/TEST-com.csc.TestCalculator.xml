@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.csc.TestCalculator" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-12-09T05:18:17" hostname="WIN-VE0J3PDRJ34" time="0.032">
+<testsuite name="com.csc.TestCalculator" tests="13" skipped="0" failures="0" errors="0" timestamp="2024-12-14T03:49:05" hostname="WIN-VE0J3PDRJ34" time="0.078">
   <properties/>
-  <testcase name="testAverageUsingForLoop()" classname="com.csc.TestCalculator" time="0.011"/>
-  <testcase name="testMaximumUsingStreamAPI()" classname="com.csc.TestCalculator" time="0.001"/>
-  <testcase name="testSumUsingStreamAPI()" classname="com.csc.TestCalculator" time="0.001"/>
-  <testcase name="testMinimumUsingStreamAPI()" classname="com.csc.TestCalculator" time="0.001"/>
-  <testcase name="testAverageUsingStream()" classname="com.csc.TestCalculator" time="0.003"/>
-  <testcase name="testMinimumUsingForLoop()" classname="com.csc.TestCalculator" time="0.0"/>
-  <testcase name="testMaximumUsingForLoop()" classname="com.csc.TestCalculator" time="0.001"/>
+  <testcase name="testSquareNumbers()" classname="com.csc.TestCalculator" time="0.027"/>
+  <testcase name="testFilterEvenNumbers()" classname="com.csc.TestCalculator" time="0.003"/>
+  <testcase name="testAverageUsingForLoop()" classname="com.csc.TestCalculator" time="0.005"/>
+  <testcase name="testMaximumUsingStreamAPI()" classname="com.csc.TestCalculator" time="0.002"/>
+  <testcase name="testFilterOddNumbers()" classname="com.csc.TestCalculator" time="0.003"/>
+  <testcase name="testSumUsingStreamAPI()" classname="com.csc.TestCalculator" time="0.003"/>
+  <testcase name="testMinimumUsingStreamAPI()" classname="com.csc.TestCalculator" time="0.003"/>
+  <testcase name="testAverageUsingStream()" classname="com.csc.TestCalculator" time="0.005"/>
+  <testcase name="testMinimumUsingForLoop()" classname="com.csc.TestCalculator" time="0.002"/>
+  <testcase name="testMaximumUsingForLoop()" classname="com.csc.TestCalculator" time="0.002"/>
+  <testcase name="testAddFiveToEachElement()" classname="com.csc.TestCalculator" time="0.001"/>
   <testcase name="testSumUsingForLoop()" classname="com.csc.TestCalculator" time="0.001"/>
   <testcase name="itWorks()" classname="com.csc.TestCalculator" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

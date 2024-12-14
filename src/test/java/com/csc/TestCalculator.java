@@ -1,5 +1,6 @@
 package com.csc;
 
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -57,5 +58,33 @@ public class TestCalculator {
   @Test
   void testAverageUsingStream(){
     assertEquals(6.75, calculator.averageUsingStreamAPI(new int[]{1, 7, 9, 10}));
+  }
+
+  @Test
+  void testFilterEvenNumbers(){
+    int[] input = {1, 2, 3, 4, 5, 6, 7, 8};
+    int[] expected = {2, 4, 6, 8};
+    assertArrayEquals(expected, calculator.filterEvenNumbers(input));
+  }
+
+  @Test
+  void testFilterOddNumbers(){
+    int[] input = {1, 2, 3, 4, 5, 6, 7, 8};
+    int[] expected = {1, 3, 5, 7};
+    assertArrayEquals(expected, calculator.filterOddNumbers(input));
+  }
+
+  @Test
+  void testAddFiveToEachElement(){
+    int[] input = {1, 2, 3, 4, 5, 6};
+    int[] expected = {6, 7, 8, 9, 10, 11};
+    assertArrayEquals(expected, calculator.addFiveToEachElement(input));
+  }
+
+  @Test
+  void testSquareNumbers(){
+    int[] input = {1, -2, 3, -4, 5};
+    int[] expected = {1, 4, 9, 16, 25};
+    assertArrayEquals(expected, calculator.squareNumbers(input));
   }
 }
